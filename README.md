@@ -6,7 +6,7 @@
 - Sprite rang CS:GO nad głową gracza gdy nacelujesz na przeciwnika.
 - Ranking Top8, którzy mają najwięcej zdobytych pkt.
 
-<b>Dzięki N1K1Cz za pomoc przy HUD oraz Top8.</b>
+<b>** Dzięki [N1K1Cz](https://github.com/N1K1Cz) za pomoc przy HUD oraz Top8.</b>
 
 ### Requirements
 - AMXModX 1.9 / AMXModX 1.10
