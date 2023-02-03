@@ -13,7 +13,7 @@
 
 ### Configuration
 <details>
-  <summary><b>mVip_Core.cfg</b></summary>
+  <summary><b>mRanks_Core.cfg</b></summary>
 
 ```
 //============================================================== » mRanks - Core « ==============================================================\\
