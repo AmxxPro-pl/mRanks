@@ -82,7 +82,7 @@ mRanks_Extra_Points_Win_Vip "2"                     // Liczba punktów VIP zdoby
  
  - Grupy
  
-   <img src="https://github.com/AmxxPro-pl/mRanks/blob/main/img/9.png?raw=true"></img>
+   <img src="https://github.com/AmxxPro-pl/mRanks/blob/main/img/3.png?raw=true"></img>
  
  - Grupy: Zwykły Gracz
 
