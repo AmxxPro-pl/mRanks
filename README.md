@@ -30,6 +30,7 @@ mRanks_Flags_SVIP "s"                               // Flaga SVIP'a ( s - Domyś
 mRanks_Extra_Points_SVIP "0"                        // Czy SVIP ma dostawać dodatkowe pkt? ( 1 - Tak | 0 - Nie )
 mRanks_Min_Players "2"                              // Minimalna ilość graczy, aby naliczać pkt
 mRanks_Forum "AmxxPro.pl"                           // Nazwa forum wyświetlana w HUD ( AmxxPro.pl - Domyślnie )
+mRanks_Sprite "1"                                   // Czy ma wyświetlać sprite rang nad głową? ( 1 - Tak | 0 - Nie )
 
 // » Zwykły Gracz
 mRanks_Kill "1"                                     // Liczba punktów zdobywanych za zabójstwo ( 0 - Jeżeli ma nie dostawać )
