@@ -24,8 +24,10 @@
 
 // » Główne Ustawienia
 mRanks_Chat_Tag "Rangi"                             // Prefix na czat ( Rangi - Domyślnie )
-mRanks_Flags_Vip "t"                                // Flaga VIP'a ( t - Domyślnie )
-mRanks_Extra_Points_Vip "1"                         // Czy VIP ma dostawać dodatkowe pkt? ( 1 - Tak | 0 - Nie )
+mRanks_Flags_VIP "t"                                // Flaga VIP'a ( t - Domyślnie )
+mRanks_Extra_Points_VIP "1"                         // Czy VIP ma dostawać dodatkowe pkt? ( 1 - Tak | 0 - Nie )
+mRanks_Flags_SVIP "s"                               // Flaga SVIP'a ( s - Domyślnie )
+mRanks_Extra_Points_SVIP "0"                        // Czy SVIP ma dostawać dodatkowe pkt? ( 1 - Tak | 0 - Nie )
 mRanks_Min_Players "2"                              // Minimalna ilość graczy, aby naliczać pkt
 mRanks_Forum "AmxxPro.pl"                           // Nazwa forum wyświetlana w HUD ( AmxxPro.pl - Domyślnie )
 
@@ -43,19 +45,33 @@ mRanks_Extra_Points_Hostage_Rescued "1"             // Liczba punktów zdobywany
 mRanks_Extra_Points_Win "1"                         // Liczba punktów zdobywanych za wygraną rundę ( 0 - Jeżeli ma nie dostawać )
 
 // » VIP
-mRanks_Kill_Vip "2"                                 // Liczba punktów VIP zdobywanych za zabójstwo ( 0 - Jeżeli ma nie dostawać )
-mRanks_Kill_Hs_Vip "4"                              // Liczba punktów VIP zdobywanych za headshota ( 0 - Jeżeli ma nie dostawać )
-mRanks_Extra_Points_Revenge_Vip "2"                 // Liczba punktów VIP zdobywanych za zemstę ( 0 - Jeżeli ma nie dostawać )
-mRanks_Extra_Points_Assist_Vip "2"                  // Liczba punktów VIP zdobywanych za asystę ( 0 - Jeżeli ma nie dostawać )
-mRanks_Points_Dead_Vip "2"                          // Liczba punktów VIP traconych za zgon ( 0 - Jeżeli ma nie tracić )
-mRanks_Extra_Points_Knife_Vip "2"                   // Liczba punktów VIP zdobywanych za zabójstwo z noża ( 0 - Jeżeli ma nie dostawać )
-mRanks_Extra_Points_Grenade_Vip "2"                 // Liczba punktów VIP zdobywanych za zabójstwo z granatu ( 0 - Jeżeli ma nie dostawać )
-mRanks_Extra_Points_Plant_Vip "2"                   // Liczba punktów VIP zdobywanych za podłożenie bomby ( 0 - Jeżeli ma nie dostawać )
-mRanks_Extra_Points_Defuse_Vip "2"                  // Liczba punktów VIP zdobywanych za rozbrojenie bomby ( 0 - Jeżeli ma nie dostawać )
-mRanks_Extra_Points_Hostage_Rescued_Vip "2"         // Liczba punktów VIP zdobywanych za uratowanie zakładnika ( 0 - Jeżeli ma nie dostawać )
-mRanks_Extra_Points_Win_Vip "2"                     // Liczba punktów VIP zdobywanych za wygraną rundę ( 0 - Jeżeli ma nie dostawać )
+mRanks_Kill_VIP "2"                                 // Liczba punktów VIP zdobywanych za zabójstwo ( 0 - Jeżeli ma nie dostawać )
+mRanks_Kill_Hs_VIP "4"                              // Liczba punktów VIP zdobywanych za headshota ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Revenge_VIP "2"                 // Liczba punktów VIP zdobywanych za zemstę ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Assist_VIP "2"                  // Liczba punktów VIP zdobywanych za asystę ( 0 - Jeżeli ma nie dostawać )
+mRanks_Points_Dead_VIP "1"                          // Liczba punktów VIP traconych za zgon ( 0 - Jeżeli ma nie tracić )
+mRanks_Extra_Points_Knife_VIP "2"                   // Liczba punktów VIP zdobywanych za zabójstwo z noża ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Grenade_VIP "2"                 // Liczba punktów VIP zdobywanych za zabójstwo z granatu ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Plant_VIP "2"                   // Liczba punktów VIP zdobywanych za podłożenie bomby ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Defuse_VIP "2"                  // Liczba punktów VIP zdobywanych za rozbrojenie bomby ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Hostage_Rescued_VIP "2"         // Liczba punktów VIP zdobywanych za uratowanie zakładnika ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Win_VIP "2"                     // Liczba punktów VIP zdobywanych za wygraną rundę ( 0 - Jeżeli ma nie dostawać )
+
+// » SVIP
+mRanks_Kill_SVIP "4"                                // Liczba punktów SVIP zdobywanych za zabójstwo ( 0 - Jeżeli ma nie dostawać )
+mRanks_Kill_Hs_SVIP "8"                             // Liczba punktów SVIP zdobywanych za headshota ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Revenge_SVIP "3"                // Liczba punktów SVIP zdobywanych za zemstę ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Assist_SVIP "3"                 // Liczba punktów SVIP zdobywanych za asystę ( 0 - Jeżeli ma nie dostawać )
+mRanks_Points_Dead_SVIP "1"                         // Liczba punktów SVIP traconych za zgon ( 0 - Jeżeli ma nie tracić )
+mRanks_Extra_Points_Knife_SVIP "3"                  // Liczba punktów SVIP zdobywanych za zabójstwo z noża ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Grenade_SVIP "3"                // Liczba punktów SVIP zdobywanych za zabójstwo z granatu ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Plant_SVIP "3"                  // Liczba punktów SVIP zdobywanych za podłożenie bomby ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Defuse_SVIP "3"                 // Liczba punktów SVIP zdobywanych za rozbrojenie bomby ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Hostage_Rescued_SVIP "3"        // Liczba punktów SVIP zdobywanych za uratowanie zakładnika ( 0 - Jeżeli ma nie dostawać )
+mRanks_Extra_Points_Win_SVIP "3"                    // Liczba punktów SVIP zdobywanych za wygraną rundę ( 0 - Jeżeli ma nie dostawać )
 
 //============================================================== » mRanks - Core « ==============================================================\\
+
 ```
 </details>
 
