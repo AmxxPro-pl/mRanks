@@ -24,10 +24,8 @@
 
 // » Główne Ustawienia
 mRanks_Chat_Tag "Rangi"                             // Prefix na czat ( Rangi - Domyślnie )
-mRanks_Flags_VIP "t"                                // Flaga VIP'a ( t - Domyślnie )
-mRanks_Extra_Points_VIP "1"                         // Czy VIP ma dostawać dodatkowe pkt? ( 1 - Tak | 0 - Nie )
-mRanks_Flags_SVIP "s"                               // Flaga SVIP'a ( s - Domyślnie )
-mRanks_Extra_Points_SVIP "0"                        // Czy SVIP ma dostawać dodatkowe pkt? ( 1 - Tak | 0 - Nie )
+mRanks_Extra_Points_VIP "1"                         // Czy VIP ma dostawać dodatkowe pkt? [ ADMIN_LEVEL_H - Domyślnie ] ( 1 - Tak | 0 - Nie )
+mRanks_Extra_Points_SVIP "0"                        // Czy SVIP ma dostawać dodatkowe pkt? [ ADMIN_LEVEL_G - Domyślnie ] ( 1 - Tak | 0 - Nie )
 mRanks_Min_Players "2"                              // Minimalna ilość graczy, aby naliczać pkt
 mRanks_Forum "AmxxPro.pl"                           // Nazwa forum wyświetlana w HUD ( AmxxPro.pl - Domyślnie )
 mRanks_Sprite "1"                                   // Czy ma wyświetlać sprite rang nad głową? ( 1 - Tak | 0 - Nie )
@@ -72,7 +70,6 @@ mRanks_Extra_Points_Hostage_Rescued_SVIP "3"        // Liczba punktów SVIP zdob
 mRanks_Extra_Points_Win_SVIP "3"                    // Liczba punktów SVIP zdobywanych za wygraną rundę ( 0 - Jeżeli ma nie dostawać )
 
 //============================================================== » mRanks - Core « ==============================================================\\
-
 ```
 </details>
 
